@@ -22,3 +22,4 @@ sudo systemctl restart docker
 # 添加vagrant到docker组中
 sudo gpasswd -a vagrant docker # 把当前用户添加到docker组中
 sudo systemctl restart docker.service # 重启docker服务
+
